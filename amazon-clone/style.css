@@ -20,7 +20,7 @@
     background-size: cover;
 }
 
-.logo:hover , .search-select:hover , .address:hover{
+.logo:hover , .search-select:hover , .address:hover , .nav-lang:hover , .nav-signin-border:hover , .panel-all:hover , .nav-cart:hover , .nav-signin:hover , .nav-return:hover {
     border: 2px solid white;
     cursor: pointer;
 }
@@ -48,13 +48,14 @@
     justify-content: space-evenly;
     align-items: center;
     width: 620px;
-    height: 40px;
+    height: 50px;
     border-radius: 4px;
 }
 
 .search-select {
     background-color: #f3f3f3;
     width: 50px;
+    height: 50px;
     text-align: center;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
@@ -63,12 +64,14 @@
 
 .search-input {
     width: 100%;
+    height: 50px;
     font-size: 1rem;
     border: none;
 }
 
 .search-icon {
     width : 45px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,4 +89,217 @@
 
 .search-icon:hover{
     cursor: pointer;
+}
+
+.nav-lang{
+    color: #ffffff;
+    height: 50px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+span{
+    color: #ffffff;
+}
+
+.nav-second {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.nav-cart i{
+    font-size: 35px;
+    height: 20px;
+    color: #ffffff;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.nav-cart , .nav-return , .nav-signin {
+    height: 50px;
+}
+
+
+/* PANNEL STYLING */
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-options p:hover{
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+}
+
+.panel-options p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-options{
+    width: 70%;
+    font-size: 1rem;
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.hero-section {
+    background-image: url("required-images/0.jpg");
+    height: 380px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-section a:hover{
+    color: brown;
+}
+
+.hero-message{
+    background-color: white;
+    color: black;
+    height: 40px;
+    font-size: 0.85 rem;
+    bottom: 200px;
+    margin-bottom: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-message a{
+    color: #007185  ;
+}
+
+/* SHOP SECTION */
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    border-top: 15px;
+    margin-top: 15px;
+}
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(235, 219, 237);
+}
+
+.shop-section a:hover{
+    color: brown;
+}
+
+.box-img{
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.box-content{
+    margin-left: 2rem ;
+    margin-right: 2rem;
+}
+
+.box-content a{
+    color: #007185;
+}
+
+.inside-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px 0px 15px;
+}
+
+/* Footer styling */
+
+footer{
+    margin-top: 15px;
+}
+
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a{
+    display: flex;
+    margin-top: 10px;
+    color: #dddddd;
+    margin-bottom: 20px;
+}
+
+.foot-panel2 a:hover{
+    cursor: pointer;
+}
+
+ul p{
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+ul{
+    margin: 40px;
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid #cccccc;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel3logo{
+    background-image: url(images/amazlogo.jpg);
+    height: 50px;
+    width: 120px;
+    background-size: cover;
+}
+
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    text-align: center;
+}
+
+.pages{
+    padding-top: 25px;
+}
+
+.copyright{
+    padding: 5px;
 }
